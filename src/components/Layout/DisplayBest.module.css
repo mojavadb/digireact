@@ -1,0 +1,15 @@
+.scrollbarHidden::-webkit-scrollbar{
+    display: none; /* Edge , google */
+}
+.scrollbarHidden {
+    -ms-overflow-style: none; /* Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.prevBtn{
+    top: 50%;
+    right: 15px;
+}
+.nextBtn{
+    top: 50%;
+    left: 15px !important;
+}

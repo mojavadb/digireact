@@ -1,0 +1,12 @@
+.cBlack{
+    color: #3f4064;
+}
+.cBlue{
+    color: #19bfd3;
+}
+.textLineMaxTow{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden !important;
+    text-overflow: ellipsis;      
+}

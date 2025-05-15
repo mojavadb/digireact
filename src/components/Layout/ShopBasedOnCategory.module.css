@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: stretch;
+    gap: 8px 0;
+}
+.scrollbarHidden::-webkit-scrollbar{
+    display: none; /* Edge , google */
+}
+.scrollbarHidden {
+    -ms-overflow-style: none; /* Edge */
+    scrollbar-width: none; /* Firefox */
+}

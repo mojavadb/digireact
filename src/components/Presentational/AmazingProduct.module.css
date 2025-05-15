@@ -1,0 +1,41 @@
+.cntrCard , .seeAll{
+    width: 160px !important;
+}
+.seeAll {
+    font-size: 14px;
+    border-radius: 12px 0 0 12px;
+    color: #3f4064;
+}
+.off{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 0.5px 4px;
+    font-size: 12px;
+}
+.caption{
+    font-size: 12px;
+    color: #62666d;
+    min-height: 36px;
+}
+.newPrice{
+    color: #3f4064;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 1px 0;
+}
+.newPrice span{
+    font-size: 10px;
+}
+.prePrice{
+    color: #c2c0c5;
+    font-size: 11px;
+}
+.rounded0330 {
+    border-radius: 0 12px 12px 0;
+}
+@media (max-width: 768px) {
+    .cntrCard , .seeAll{
+        width: 130px;
+    }
+}

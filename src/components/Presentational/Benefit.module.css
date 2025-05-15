@@ -1,0 +1,14 @@
+.benefit {
+    width: 84px;
+    cursor: pointer;
+}
+.image {
+    width: 100%;
+}
+.text{
+    font-size: calc(10px + .25vw);
+    margin: 6px 2px;
+    padding: 0 4px;
+    text-align: center;
+    color: #1f1725;
+}

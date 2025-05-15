@@ -1,0 +1,19 @@
+.scrollbarHidden::-webkit-scrollbar{
+    display: none; /* Edge , google */
+}
+.scrollbarHidden {
+    -ms-overflow-style: none; /* Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.containerBenefits{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 32px;
+}
+@media (max-width: 768px) {
+    .containerBenefits{
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+}

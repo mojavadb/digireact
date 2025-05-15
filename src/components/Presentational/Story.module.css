@@ -1,0 +1,17 @@
+.contanerStories{
+    width: 84px;
+    margin: 0 6px;
+    cursor: pointer;
+}
+.text{
+    font-size: calc(9.25px + .25vw);
+    margin-top: 4px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #1f1725;
+}
+.contanerImage{
+  border-radius: 50% !important;
+  border: 2px solid purple; 
+  padding: 4px;
+}

@@ -6,7 +6,7 @@ import SearchPageMobile from "./pages/SearchPageMobile"
 import SearchPageDesktop from "./pages/SearchPageDesktop"
 import LoginPage from "./pages/LoginPage"
 
-import { DataProvider } from "./contexts/dataContext"
+import { DataProvider } from "./contexts/DataContext"
 import { InnerWidthProvider } from "./contexts/InnerWidthContext"
 
 function App() {

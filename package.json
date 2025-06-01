@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
     "server": "json-server --watch data/all.json --port 8000"
   },
   "dependencies": {

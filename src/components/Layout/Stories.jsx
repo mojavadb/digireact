@@ -6,7 +6,7 @@ import Story from '../Presentational/Story';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
-import { useData } from '../../contexts/dataContext';
+import { useData } from '../../contexts/DataContext';
 
 function Stories() {
     const {stories} = useData();

@@ -1,6 +1,6 @@
 import Category from '../Presentational/Category'
 import styles from './ShopBasedOnCategory.module.css'
-import { useData } from '../../contexts/dataContext';
+import { useData } from '../../contexts/DataContext';
 import { useWidth } from '../../contexts/InnerWidthContext';
 
 function ShopBasedOnCategory() {

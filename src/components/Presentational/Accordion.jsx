@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useData } from "../../contexts/dataContext";
+import { useData } from "../../contexts/DataContext";
 import styles from './Accordion.module.css';
 import FooterNavigation from "./FooterNavigation";
 import FooterNavTitle from "./FooterNavTitle";

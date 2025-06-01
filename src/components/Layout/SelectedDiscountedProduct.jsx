@@ -2,7 +2,7 @@ import DiscountedProduct from '../Presentational/DiscountedProduct'
 import styles from './SelectedDiscountedProduct.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTags } from '@fortawesome/free-solid-svg-icons';
-import { useData } from '../../contexts/dataContext';
+import { useData } from '../../contexts/DataContext';
 import { useWidth } from '../../contexts/InnerWidthContext';
 
 function SelectedDiscountedProduct() {

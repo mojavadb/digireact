@@ -1,4 +1,4 @@
-import { useData } from "../../contexts/dataContext"
+import { useData } from "../../contexts/DataContext"
 import { useWidth } from "../../contexts/InnerWidthContext";
 
 function SubBrands({start, end}) {

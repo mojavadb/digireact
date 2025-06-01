@@ -3,7 +3,7 @@ import styles from './AmazingSuperMarket.module.css'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
-import { useData } from '../../contexts/dataContext';
+import { useData } from '../../contexts/DataContext';
 import { useWidth } from '../../contexts/InnerWidthContext';
 
 const BASKETIMAGE = "https://www.digikala.com/statics/img/png/amazing/fresh.webp";

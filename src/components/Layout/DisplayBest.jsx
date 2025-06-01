@@ -4,7 +4,7 @@ import styles from './DisplayBest.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight, faFire } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import { useData } from "../../contexts/dataContext";
+import { useData } from "../../contexts/DataContext";
 import { useWidth } from "../../contexts/InnerWidthContext";
 function DisplayBest({slice, title}) {
     const {width} = useWidth();

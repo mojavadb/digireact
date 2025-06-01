@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useData } from "../../contexts/dataContext";
+import { useData } from "../../contexts/DataContext";
 import { useWidth } from "../../contexts/InnerWidthContext";
 
 function FourPartBaner({slice}) {

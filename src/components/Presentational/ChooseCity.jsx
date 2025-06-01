@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClose } from '@fortawesome/free-solid-svg-icons'; 
 import { useState } from 'react';
 import { faAngleLeft } from '@fortawesome/free-solid-svg-icons/faAngleLeft';
-import { useData } from '../../contexts/dataContext';
+import { useData } from '../../contexts/DataContext';
 
 const TREND_CITIES = [
     "تهران", "کرج", "اصفهان", "مشهد", "ساری", "رشت", "اهواز", "تبریز", "قم"

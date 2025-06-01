@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import Card from '../Presentational/Card'
-import { useData } from '../../contexts/dataContext';
+import { useData } from '../../contexts/DataContext';
 function ContainerCards() {
     const {articles} = useData();
     

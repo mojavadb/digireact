@@ -1,7 +1,7 @@
 import { createContext, useContext, useReducer } from "react"
 import useFetchDataReducer from "../hooks/useFetchDataReducer";
 
-const dataContext = createContext(null);
+const DataContext = createContext(null);
 
 const initialState = {
   cities: [],
@@ -139,7 +139,7 @@ function DataProvider({children}) {
   useFetchDataReducer(dispatch, "bedges");
 
   return (
-    <dataContext.Provider value={{
+    <DataContext.Provider value={{
       cities ,
       stories ,
       benefits ,
@@ -159,14 +159,14 @@ function DataProvider({children}) {
       error
     }}>
       {children}
-    </dataContext.Provider>
+    </DataContext.Provider>
   )
 }
 
 function useData(){
-  const context = useContext(dataContext);
+  const context = useContext(DataContext);
   if(context === undefined){
-    throw new Error("dataContext was used outside the CitiesProvider");
+    throw new Error("DataContext was used outside the CitiesProvider");
   }
   return context;
 }

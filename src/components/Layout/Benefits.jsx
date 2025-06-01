@@ -1,4 +1,4 @@
-import { useData } from "../../contexts/dataContext.jsx";
+import { useData } from "../../contexts/DataContext.jsx";
 import Benefit from "../Presentational/Benefit.jsx";
 import styles from './Benefits.module.css'
 

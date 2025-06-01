@@ -6,7 +6,7 @@ import AmazingTimerBanner from "../Presentational/AmazingTimerBanner"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons"
 
-import { useData } from "../../contexts/dataContext"
+import { useData } from "../../contexts/DataContext"
 import { useWidth } from "../../contexts/InnerWidthContext"
 
 

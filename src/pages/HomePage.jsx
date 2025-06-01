@@ -20,7 +20,7 @@ import BuyFromSuperMarket from "../components/Presentational/BuyFromSuperMarket"
 import AmazingSuperMarket from "../components/Presentational/AmazingSuperMarket"
 import Wait   from "../components/Presentational/Wait"
 
-import { useData } from "../contexts/dataContext"
+import { useData } from "../contexts/DataContext"
 
 function HomePage() {
     const {isLoading} = useData();

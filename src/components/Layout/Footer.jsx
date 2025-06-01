@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleUp, faHeadphones } from "@fortawesome/free-solid-svg-icons"
 import { faInstagram, faLinkedin, faTelegram, faTwitter } from "@fortawesome/free-brands-svg-icons"
 
-import { useData } from "../../contexts/dataContext"
+import { useData } from "../../contexts/DataContext"
 import { useWidth } from "../../contexts/InnerWidthContext"
  
 const WITH_DIGIKALA = ["اتاق خبر دیجی کالا","فروش در دیجی کالا","فرصت های شغلی","گزارش تخلف در دیجی کالا","تماس با دیجی کالا","درباره دیجی کالا"];

@@ -1,5 +1,5 @@
 import ProductsOverView from "./ProductsOverView"
-import { useData } from "../../contexts/dataContext";
+import { useData } from "../../contexts/DataContext";
 import { useWidth } from "../../contexts/InnerWidthContext";
 
 function ContainerProductOverView({slice}) {

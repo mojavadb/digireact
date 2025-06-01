@@ -2,7 +2,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useState } from "react"
 import { useWidth } from "../../contexts/InnerWidthContext";
-import { useData } from "../../contexts/dataContext";
+import { useData } from "../../contexts/DataContext";
 import { Link } from "react-router-dom";
 import styles from './CategoryProductsNav.module.css'
 

@@ -1,7 +1,0 @@
-.item{
-    transition: .3s all ease;
-}
-.item:hover{
-    background-color: #fff;
-    color: #fa120f;
-}

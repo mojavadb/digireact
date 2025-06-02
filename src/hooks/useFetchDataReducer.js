@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-const BASE_URL = "https://digireact.onrender.com/";
+const BASE_URL = "https://digireact.onrender.com";
 // http://localhost:8000
 
 function useFetchDataReducer(dispatch, target="") {

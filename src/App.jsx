@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { HashRouter as Router, Route, Routes } from "react-router-dom"
 
 import HomePage from "./pages/HomePage"
 import SearchPageMobile from "./pages/SearchPageMobile"
@@ -16,7 +16,7 @@ function App() {
   return (
     <InnerWidthProvider>
       <DataProvider>
-        <BrowserRouter>
+        <Router>
           <Routes>
           <Route path="/" element={<HomePage />}>
             {width > 768 && 
@@ -29,7 +29,7 @@ function App() {
             <Route path="login" element={<LoginPage width={width} />} />
             <Route path="*" element={<h1>not found</h1>} />
           </Routes>
-        </BrowserRouter>
+        </Router>
       </DataProvider>
     </InnerWidthProvider>
   )
